@@ -15,9 +15,8 @@
                  templateId template/getId;
                  filecartinstalled view/isFileCartInstalled;
                  canusefilecart view/canUseFileCart">
-
     <div tal:replace="structure provider:plone.abovecontenttitle" />
-    
+
     <h1 tal:content="here/pretty_title_or_id" class="documentFirstHeading">Title or id</h1>
 
     <div tal:replace="structure provider:plone.belowcontenttitle" />
@@ -25,7 +24,7 @@
     <p metal:use-macro="here/kss_generic_macros/macros/generic_description_view">
         Description
     </p>
-        
+
     <div tal:replace="structure provider:plone.abovecontentbody" />
 
     <div tal:condition="python: not results">
@@ -37,7 +36,7 @@
 
     <div tal:condition="results">
         <form action="@@filecart-cart" method="post">
-            
+
         <tal:button condition="python:filecartinstalled and canusefilecart">
         <div class="visualClear"><!-- --></div>
         <br/>
@@ -47,7 +46,7 @@
         <br/><br/>
         <div class="visualClear"><!-- --></div>
         </tal:button >
-        
+
         <tal:contents tal:condition="results" tal:repeat="content results">
             <div style="height:200px" class="photoAlbumEntry">
                 <a tal:define="id python:int(b_start)+int(repeat['content'].number()-1)"
@@ -66,7 +65,7 @@
                        tal:attributes="value content/UID" />
             </div>
         </tal:contents>
-        
+
         <tal:button condition="python:filecartinstalled and canusefilecart">
         <div class="visualClear"><!-- --></div>
         <br/>
@@ -76,7 +75,7 @@
         <br/><br/>
         <div class="visualClear"><!-- --></div>
         </tal:button >
-        
+
         </form>
     </div>
 
