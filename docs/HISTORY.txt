@@ -3,8 +3,8 @@ Changelog for atreal.override.albumview
 =======================================
 (name of developer listed in brackets)
 
-1.0.1 (Unreleased)
-------------------
+1.0.0rc2 (2014-09-15)
+---------------------
 
 - Do not change selected skin at install.
   [thomasdesvenain]
