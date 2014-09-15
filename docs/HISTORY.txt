@@ -3,6 +3,12 @@ Changelog for atreal.override.albumview
 =======================================
 (name of developer listed in brackets)
 
+1.0.0rc3 (unreleased)
+---------------------
+
+- Nothing changed yet.
+
+
 1.0.0rc2 (2014-09-15)
 ---------------------
 

@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.0.0rc2'
+version = '1.0.0rc3.dev0'
 
 setup(name='atreal.override.albumview',
       version=version,
