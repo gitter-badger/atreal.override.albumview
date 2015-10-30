@@ -19,3 +19,5 @@ Credits
 
 * Thanks to Tango Desktop Project http://tango.freedesktop.org
 * Sponsorised by City of Albi (Fr), www.mairie-albi.fr
+
+Join the chat at https://gitter.im/collective/atreal.override.albumview
